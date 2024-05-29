@@ -1,0 +1,54 @@
+
+/* Style for the container and image */
+.banner-style-two {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.banner-style-two .content {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Adjust height as needed */
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust spacing between images as needed */
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0; /* Adjust margin as needed */
+}
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    color: #fff; /* Adjust text color as needed */
+}
+
+.banner-right-info {
+    background: rgba(0, 0, 0, 0.5); /* Add background color with transparency */
+    padding: 20px;
+    border-radius: 10px; /* Adjust border radius as needed */
+}
+
+.banner-right-info .button a {
+    color: #fff; /* Ensure button text color is visible */
+}
+
+.row.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
